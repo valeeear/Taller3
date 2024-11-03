@@ -1,0 +1,167 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.info{
+    font-family: "Lucida Handwriting", cursive;
+	background-color: #000;
+	color: #000000;
+	padding: 15px 0;
+	text-align:center;
+    background-color: transparent;
+    
+}
+
+h1{
+    background-color: #000;
+	color: #000000;
+	padding: 15px 0;
+	text-align:center;
+    background-color: transparent;
+
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(255, 139, 211);
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+ }
+
+ .logo img{
+    height: 50px;
+    margin-left: 10px;
+ }
+
+ a{
+    text-decoration: none;
+    color: black;
+ }
+
+ nav a{
+    font-weight: 600;
+    padding-right: 10px;
+ }
+
+ nav a:hover{
+    color: white;
+ }
+
+ .imagen-macarrones{
+    background-color: #000;
+	color: #000000;
+	padding: 15px 0;
+	text-align:center;
+    background-color: transparent;
+    background: white;
+    box-shadow: 0 2px 5px rgb(255, 139, 211);
+ }
+
+ .ingredientes {
+    list-style-type: circle;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+.lista-izquierda,
+.lista-derecha {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0 20px; /* Añadido margen lateral para separación */
+    justify-content: center;
+}
+
+.lista-derecha {
+    display: flex;
+    flex-direction: column; /* Mantiene la lista y la imagen en columna */
+    align-items: center; /* Centra la lista y la imagen horizontalmente */
+    justify-content: center;
+    list-style-type: circle;
+
+
+}
+
+.lista-derecha img {
+    max-width: 300px;
+    margin-top: 10px; 
+left: 100;
+justify-content: center;
+
+}
+
+.imagen-lateral{
+    left: auto;
+    max-width: 300px;
+    margin-top: 10px; 
+    justify-content: center;
+}
+
+.tittle-ingredientes{
+    font-family: "Lucida Handwriting", cursive;
+	background-color: #000;
+	color: #000000;
+	padding: 15px 0;
+	text-align:center;
+    background-color: transparent;
+
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(255, 139, 211);
+}
+
+h1 {
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.step-number {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 139, 211);
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.step-description {
+    line-height: 1.5;
+}
+
+.ingredientes ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+}
